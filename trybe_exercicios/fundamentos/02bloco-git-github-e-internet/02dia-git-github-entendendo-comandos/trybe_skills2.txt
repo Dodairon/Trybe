@@ -5,3 +5,4 @@ O que eu vou aprender na Trybe:
 - Git
 - HTML
 - CSS
+add mais um parametro ja que esqueci de trocar de branch no inicio
