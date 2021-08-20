@@ -38,4 +38,18 @@
     top: 145px;
     left: 400px;
   }
+
+  div:hover{
+      background-color: tomato;
+  }
+  
+  div:active{
+      color: teal;
+  }
+  
+  div{
+      position: absolute;
+      top: 500px;
+      left: 30px;
+  }
  
