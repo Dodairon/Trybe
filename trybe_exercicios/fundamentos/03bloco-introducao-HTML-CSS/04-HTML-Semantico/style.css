@@ -1,0 +1,70 @@
+
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 0;
+}
+.cabecalho {
+    float: left;
+    width: 60%;
+    vertical-align: sub;
+}
+
+#img {
+    float: left;
+    margin-left: 10px;
+    max-width: 70%;
+ }
+}
+
+article {
+    clear: both;
+}
+header {
+    width: 100%;
+    display: inline-block;
+    vertical-align: sub;
+}
+
+h1 {
+    color: black;
+    padding-top: 10px;
+    padding-left: 25px;
+}
+
+.texto-esquerda {
+    float: left;
+    margin-left: 10px;
+    max-width: 70%;
+ }
+
+ .texto-direita {
+     float: left;
+     margin-left: 150px;
+ }
+ .curiosidade {
+    margin-left: 10px;
+    max-width: 70%;
+ }
+
+.nav-links li {
+    display: inline-block;
+}
+
+.info-geral {
+    clear: both;
+    text-align: justify;
+    font-size: 20px;
+    padding: 20px;
+}
+
+.descricao {
+    background-color: #e2dcdc;
+    display: inline-block;
+}
+
+* {
+    border: black;
+}
+
+
+
