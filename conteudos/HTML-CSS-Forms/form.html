@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <form action="">
+        <fieldset>
+            <p>Nome</p>
+            <input type="text" name="nome" maxlength="40" id="name" required>
+            <br><br>
+            <p>Email</p>
+            <input type="text" name="email" maxlength="50" id="email" required>
+            <br><br>
+            <p>CPF</p>
+            <input type="text" name="CPF" maxlength="11" id="cpf" required>
+            <br><br>
+            <p>Endereco</p>
+            <input type="text" name="Endereco" maxlength="200" id="endereco" required>
+            <br><br>
+            <p>Cidade</p>
+            <input type="text" name="Cidade" maxlength="28" id="cidade" required>
+            <br><br>
+            <p>Estado</p>
+            <select name="Estado" id="select-estados" required></select>
+            <br><br>
+            <p>Tipo</p>
+            <label id="moradia" for="Casa">
+                <input type="radio" id="Casa" name="Moradia" value="Casa" checked>Casa</label>
+            <label id="moradia2" for="Apartamento">
+                <input type="radio" id="Apartamento" name="Moradia" value="Apartamento">Apartamento</label>
+            <br><br>
+        </fieldset>
+        <fieldset>
+            <p>Resumo do Curriculo</p>
+            <textarea name="resumo-curriculo" id="curriculo" cols="30" rows="10" maxlength="1000" required></textarea>
+            <br><br>
+            <p>Cargo</p>
+            <input type="text" id="cargo" name="Cargo" maxlength="40" required>
+            <br><br>
+            <p>Descricao do Cargo</p>
+            <textarea name="descricao cargo" id="desc-cargo" cols="30" rows="10" maxlength="500" required></textarea>
+            <br><br>
+            <p>Data de Inicio</p>
+            <input type="date" id="date" name="data-inicio" required>
+            <br><br>
+        </fieldset>
+        <button type="submit" id="submit"> Enviar</button>
+    </form>
+    <footer id="informations"></footer>
+    <script src="script.js"></script>
+</body>
+
+</html>
